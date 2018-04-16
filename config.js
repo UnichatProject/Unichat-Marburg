@@ -9,8 +9,8 @@ if (document.location.href.indexOf("localhost") !== -1) {
     wsUrl = "wss://cha-th.herokuapp.com/";
 }
 
-url = "https://cha-th.herokuapp.com/";
-wsUrl = "wss://cha-th.herokuapp.com/";
+url = "https://ucmarburg.herokuapp.com/";
+wsUrl = "wss://ucmarburg.herokuapp.com/";
 
 var path = window.location.pathname;
 
