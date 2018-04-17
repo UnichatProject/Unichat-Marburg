@@ -9,8 +9,8 @@ if (document.location.href.indexOf("localhost") !== -1) {
     wsUrl = "wss://cha-th.herokuapp.com/";
 }
 
-url = "http://unichatproject.de/";
-wsUrl = "ws://unichatproject.de/";
+url = "https://unichatproject.de/";
+wsUrl = "wss://unichatproject.de/";
 
 var path = window.location.pathname;
 
