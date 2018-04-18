@@ -2,8 +2,7 @@ var url;
 var wsUrl;
 
 url = "https://unichatproject.de/";
-wsUrl = "wss://unichatproject.de/";
-
+wsUrl = "wss://195.201.137.67/";
 var path = window.location.pathname;
 
 const beginPrivate = "-----BEGIN RSA PRIVATE KEY-----$";
