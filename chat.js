@@ -50,7 +50,7 @@ function publicKeyToBase64() {
 
 // Open web socket to server
 function setupWebSocket() {
-    webSocket = new WebSocket(wsUrl + "chatsocket/");
+    webSocket = new WebSocket(wsUrl);
     webSocket.onopen = function (ev) {
         // Send the login message to the server
         if (doLogin) {
