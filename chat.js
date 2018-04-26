@@ -42,8 +42,6 @@ if (privateKeyPem != null) {
 
 function publicKeyToBase64() {
     return pki.publicKeyToPem(publicKey)
-        .replace("-----BEGIN PUBLIC KEY-----", "")
-        .replace("-----END PUBLIC KEY-----", "")
         .replace(/[\n\r]/g, "");
 }
 
