@@ -5,7 +5,7 @@ function buildRooms(list) {
         console.log(room.name);
         roomList.append(
             $("<li class='list-group-item'>").append(
-                $("<a href='javascript:void(0);' link-id='" + room.chatRoomId + "'>" + room.name + "&nbsp"
+                $("<a href='javascript:void(0);' link-id='" + room.chatId + "'>" + room.name + "&nbsp"
                     + "</a>").click(function (e) {
                     var target = $(e.target);
                     var chatRoomId = target.attr("link-id");
