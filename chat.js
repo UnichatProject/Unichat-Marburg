@@ -83,7 +83,7 @@ function setupWebSocket() {
                     room: roomId,
                     username: username,
                     "user-id": publicKeyToBase64(),
-                    "challenge-response": solution
+                    "challenge-response": decrypted
                 }));
                 break;
             case "error":
